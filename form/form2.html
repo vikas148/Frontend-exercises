@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <form action="" method="post">
+        <h1>This is form</h1>
+
+        <div>
+            Name:<input required type="text" name="username" id="name" placeholder="Enter your name">
+        </div>
+
+        <div>Email: 
+            <input required type="text" name="usermail" id="mail" placeholder="Enter your email">
+        </div>
+        <div>
+            Message: <textarea name="usermassage" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            Number: <input required type="number" name="usernumber" id="number" placeholder="Enter your Number">
+        </div>
+
+        <div class="check">
+          Frontend: <input type="checkbox" name="skills" id="Frontend">
+          Backend: <input type="checkbox" name="skills" id="backend">
+        </div>
+        <div>
+            <fieldset>
+               
+                <legend>
+                    Mode of payment:
+                </legend>
+
+                cash: <input type="radio" name="payment" id="cash">
+                Online: <input type="radio" name="payment" id="Online">
+            </fieldset>
+        </div>
+
+        <div>
+           Enter your password: <input required type="password" name="userpassword" id="password" placeholder="enter your password">
+        </div>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
